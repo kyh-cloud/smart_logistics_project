@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/splash_base">
+
+    <EditText
+        android:id="@+id/youtubeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/base_background"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="is-XcIywMvc" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:background="@drawable/base_background">
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:id="@+id/youtubeView"
+            android:layout_width="match_parent"
+            android:layout_height="390dp" />
+
+
+        <!--<VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="fill"/>-->
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/webEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:gravity="center"
+            android:text="http://35.216.85.216:80/shipview.php"
+            android:background="@drawable/base_background"/>
+        <Button
+            android:id="@+id/server_start_system"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#eeddffaa"
+            android:layout_weight="1"
+            android:text="데이터 출력 시작" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/base_background">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <WebView
+                        android:id="@+id/WebView"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp" />
+
+                </LinearLayout>
+            </ScrollView>
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/realtimeButton_realtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:background="#eeee3333"
+        android:textColor="#ffffff"
+        android:text="realtime" />
+
+        <Button
+            android:id="@+id/sensorButton_realtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="#ee111111"
+            android:text="sensor"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/alarmButton_realtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="#ee111111"
+            android:text="alarm"
+            android:textColor="#ffffff" />
+
+        <Button
+        android:id="@+id/databaseButton_realtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:background="#ee111111"
+        android:textColor="#ffffff"
+        android:text="database" />
+    </LinearLayout>
+
+</LinearLayout>
