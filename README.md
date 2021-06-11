@@ -6,9 +6,9 @@
 
 ### 작품 구상도
 
-![image](https://user-images.githubusercontent.com/47622991/121703287-a1882680-cb0d-11eb-84f1-a4c7dbf4019f.png)
+![image](https://user-images.githubusercontent.com/47622991/121706345-823ec880-cb10-11eb-8f88-1998a6dde355.png)
 
-![image](https://user-images.githubusercontent.com/47622991/121703296-a3ea8080-cb0d-11eb-8c75-c938c7372efb.png)
+![image](https://user-images.githubusercontent.com/47622991/121706357-8539b900-cb10-11eb-83dd-833f69b25879.png)
 
 
 
