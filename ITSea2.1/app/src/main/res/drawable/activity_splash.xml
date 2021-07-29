@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/splash_base_background">
+    </item>
+
+    <item
+        android:width="200dp"
+        android:height="400dp"
+        android:gravity="center">
+
+        <bitmap
+            android:src = "@drawable/icons_ship"
+            android:gravity="center"
+            />
+    </item>
+</layer-list>
